@@ -12,6 +12,12 @@
 		26465CF92041A5A3001001F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26465CF72041A5A3001001F2 /* Main.storyboard */; };
 		26465CFB2041A5A3001001F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26465CFA2041A5A3001001F2 /* Assets.xcassets */; };
 		26465CFE2041A5A3001001F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26465CFC2041A5A3001001F2 /* LaunchScreen.storyboard */; };
+		26979707205C418900DDFD28 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 269796FE205C418800DDFD28 /* AFURLResponseSerialization.m */; };
+		26979708205C418900DDFD28 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 269796FF205C418800DDFD28 /* AFHTTPSessionManager.m */; };
+		26979709205C418900DDFD28 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26979701205C418800DDFD28 /* AFURLSessionManager.m */; };
+		2697970A205C418900DDFD28 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26979702205C418800DDFD28 /* AFURLRequestSerialization.m */; };
+		2697970B205C418900DDFD28 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26979704205C418800DDFD28 /* AFNetworkReachabilityManager.m */; };
+		2697970C205C418900DDFD28 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26979705205C418800DDFD28 /* AFSecurityPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,20 @@
 		26465CFA2041A5A3001001F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26465CFD2041A5A3001001F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26465CFF2041A5A3001001F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269796FA205C418800DDFD28 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		269796FB205C418800DDFD28 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		269796FC205C418800DDFD28 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		269796FD205C418800DDFD28 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		269796FE205C418800DDFD28 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		269796FF205C418800DDFD28 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		26979700205C418800DDFD28 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		26979701205C418800DDFD28 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		26979702205C418800DDFD28 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		26979703205C418800DDFD28 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		26979704205C418800DDFD28 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		26979705205C418800DDFD28 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		26979706205C418800DDFD28 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		2697970D205C8AAC00DDFD28 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +58,10 @@
 		26465CE72041A5A3001001F2 = {
 			isa = PBXGroup;
 			children = (
+				2697970D205C8AAC00DDFD28 /* bridge.h */,
 				26465CF22041A5A3001001F2 /* Web Service */,
 				26465CF12041A5A3001001F2 /* Products */,
+				269796F9205C418800DDFD28 /* AFNetworking */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +84,26 @@
 				26465CFF2041A5A3001001F2 /* Info.plist */,
 			);
 			path = "Web Service";
+			sourceTree = "<group>";
+		};
+		269796F9205C418800DDFD28 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				269796FA205C418800DDFD28 /* AFSecurityPolicy.h */,
+				269796FB205C418800DDFD28 /* AFNetworkReachabilityManager.h */,
+				269796FC205C418800DDFD28 /* AFURLSessionManager.h */,
+				269796FD205C418800DDFD28 /* AFURLRequestSerialization.h */,
+				269796FE205C418800DDFD28 /* AFURLResponseSerialization.m */,
+				269796FF205C418800DDFD28 /* AFHTTPSessionManager.m */,
+				26979700205C418800DDFD28 /* AFURLResponseSerialization.h */,
+				26979701205C418800DDFD28 /* AFURLSessionManager.m */,
+				26979702205C418800DDFD28 /* AFURLRequestSerialization.m */,
+				26979703205C418800DDFD28 /* AFNetworking.h */,
+				26979704205C418800DDFD28 /* AFNetworkReachabilityManager.m */,
+				26979705205C418800DDFD28 /* AFSecurityPolicy.m */,
+				26979706205C418800DDFD28 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26979709205C418900DDFD28 /* AFURLSessionManager.m in Sources */,
 				26465CF62041A5A3001001F2 /* ViewController.swift in Sources */,
+				26979707205C418900DDFD28 /* AFURLResponseSerialization.m in Sources */,
+				2697970B205C418900DDFD28 /* AFNetworkReachabilityManager.m in Sources */,
+				2697970C205C418900DDFD28 /* AFSecurityPolicy.m in Sources */,
+				2697970A205C418900DDFD28 /* AFURLRequestSerialization.m in Sources */,
 				26465CF42041A5A3001001F2 /* AppDelegate.swift in Sources */,
+				26979708205C418900DDFD28 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +323,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Web Service/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test1.Web-Service";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,10 +339,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Web Service/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test1.Web-Service";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
