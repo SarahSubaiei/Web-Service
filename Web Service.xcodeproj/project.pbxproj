@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2644F768206FC8B500007C7E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644F767206FC8B400007C7E /* SwiftyJSON.swift */; };
 		26465CF42041A5A3001001F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26465CF32041A5A3001001F2 /* AppDelegate.swift */; };
 		26465CF62041A5A3001001F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26465CF52041A5A3001001F2 /* ViewController.swift */; };
 		26465CF92041A5A3001001F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26465CF72041A5A3001001F2 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2644F767206FC8B400007C7E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "Web Service/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		26465CF02041A5A3001001F2 /* Web Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26465CF32041A5A3001001F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26465CF52041A5A3001001F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		26465CE72041A5A3001001F2 = {
 			isa = PBXGroup;
 			children = (
+				2644F767206FC8B400007C7E /* SwiftyJSON.swift */,
 				2697970D205C8AAC00DDFD28 /* bridge.h */,
 				26465CF22041A5A3001001F2 /* Web Service */,
 				26465CF12041A5A3001001F2 /* Products */,
@@ -184,6 +187,7 @@
 				2697970B205C418900DDFD28 /* AFNetworkReachabilityManager.m in Sources */,
 				2697970C205C418900DDFD28 /* AFSecurityPolicy.m in Sources */,
 				2697970A205C418900DDFD28 /* AFURLRequestSerialization.m in Sources */,
+				2644F768206FC8B500007C7E /* SwiftyJSON.swift in Sources */,
 				26465CF42041A5A3001001F2 /* AppDelegate.swift in Sources */,
 				26979708205C418900DDFD28 /* AFHTTPSessionManager.m in Sources */,
 			);

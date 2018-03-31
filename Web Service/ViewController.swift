@@ -16,12 +16,16 @@ class ViewController: UIViewController {
         
         let Manager = AFHTTPSessionManager()
         
-        Manager.get("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=1&appid=5e3e22eef621fcac72c9af901dc9dbce",
+        Manager.get("http://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b6907d289e10d714a6e88b30761fae22",
                     parameters: nil,
                     progress: nil,
                     success: { (operation: URLSessionDataTask, responseObject:Any?) in
                         if let responseObject = responseObject {
                             print("Response: " + (responseObject as AnyObject).description)
+                            let json = JSON(responseObject)
+                            if let forecast = json["list"][0]["weather"][0]["description"].string {
+                                self.forcastLabel.text = forecast
+                            }
                         }
         }) { (operation:URLSessionDataTask?, error:Error) in
             print("Error: " + error.localizedDescription)
@@ -33,7 +37,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+  
     @IBOutlet weak var forcastLabel: UILabel!
 
+    
 }
-
